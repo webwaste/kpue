@@ -58,7 +58,7 @@ E_{high} - E_{low} = h\nu
 </script>
 </p>
 <p align = "justify">	
-Similarly, an electron transit from a lower energy state to a higher energy state by absorbing a photon of energy<script type="math/tex">  </script> h\nu</script>, complying with the same relation. While the first case is quite persuadable, the second one raise one simple doubt, <b>what if we incident a light of frequency <script type="math/tex">\nu_1</script> much larger than the required frequency?</b> A simple mind would intuit that it's more likely for a higher energy photon to cause the excitation than a photon of energy same as the excitation energy, but it's not true. The question is <b>why?</b>
+Similarly, an electron transit from a lower energy state to a higher energy state by absorbing a photon of energy <script type="math/tex">  h\nu</script>, complying with the same relation. While the first case is quite persuadable, the second one raise one simple doubt, <b>what if we incident a light of frequency <script type="math/tex">\nu'</script> much larger than the required frequency <script type="math/tex">\nu</script>?</b> A simple mind would intuit that it's more likely for a higher energy photon to cause the excitation, but it's not true. The question is <b>why?</b>
 </p>
 <p align = "justify">
 Well, the explanation involves little advanced quantum mechanics ( the word 'advanced' has been used in relative sense ) to be more specific <em>time dependent perturbation theory</em> (TDPT). Here it is,
@@ -71,7 +71,7 @@ Let's consider there are only two eigen states where  the electron can be, namel
 </script>
 </p>
 <p align = "justify">
-Needless to say<script type="math/tex">  </script> <script type="math/tex">E_a</script> and <script type="math/tex"> E_b</script> are interpreted as energies of the states<script type="math/tex"> \psi_a </script> and <script type="math/tex"> \psi_b</script> respectively. If, the electron starts with any of the stationary states, it will stay as it is. But if it's a linear combination of those two states, i.e.
+Needless to say<script type="math/tex">  </script> <script type="math/tex">E_a</script> and <script type="math/tex"> E_b</script> are interpreted as energies of the states <script type="math/tex"> \psi_a </script> and <script type="math/tex"> \psi_b</script> respectively. If, the electron starts with any of these stationary states, it will stay as it is. But if it's a linear combination of those two states, i.e.
 </p>
 <p align = "center">
 <script type="math/tex;" align = "left">
@@ -79,7 +79,7 @@ Needless to say<script type="math/tex">  </script> <script type="math/tex">E_a</
 </script>
 </p>
 <p align = "justify">
-then, the state evolves with time, complying with the following relation,
+then, the state evolves with time, according to the following relation,
 </p>
 <p align = "center">
 <script type="math/tex;" align = "left">
@@ -138,17 +138,17 @@ and,
 
 
 
-One thing to notice is that the above equation is a coupled differential equation. A good starting point to unravel the usefulness of the above equation would be considering <script type="math/tex">c_a = 1</script> and <script type="math/tex">c_b = 0</script>, i.e. assuming the electron starts from the state <script type="math/tex">\psi_a</script>. Substituting the value of <script type="math/tex">c_a</script> and <script type="math/tex">c_b</script> in equation <script type="math/tex">\eqref{eq:TDPT}</script> the first order correction would be, 
+One thing to notice is that the above equation is a coupled differential equation. A good starting point to unravel the usefulness of the above equation would be considering <script type="math/tex">c_a = 1</script> and <script type="math/tex">c_b = 0</script>, i.e. assuming the electron starts from the state <script type="math/tex">\psi_a</script>. Substituting the value of <script type="math/tex">c_a</script> and <script type="math/tex">c_b</script> in the above equation we get the first order correction, 
 
 </p>
 <p align = "center">
-<script type="math/tex;" align = "left">
-\frac{dc_a^{(1)}}{dt} = 0,\implies c_a^{(1)}(t) = 1 \\
-\frac{dc_b^{(1)}}{dt} = -\frac{i}{\hbar}H'_{ba}e^{i\omega_0t} \\ \implies  c_b^{(1)}= -\frac{i}{\hbar}\int_0^t H'_{ba}(t')e^{i\omega_0t'}dt'
+<script type="math/tex;" align = "left"> 
+\frac{dc_a^{(1)}}{dt} = 0,\implies c_a^{(1)}(t) = 1 \\ \\
+\frac{dc_b^{(1)}}{dt} = -\frac{i}{\hbar}H'_{ba}e^{i\omega_0t} \\ \\ \implies  c_b^{(1)}= -\frac{i}{\hbar}\int_0^t H'_{ba}(t')e^{i\omega_0t'}dt'
 </script>
 </p>
 <p align = "justify">
-substituting the first order values of this equation again in the previous equation, we get the second order correction and continuing in this manner we get all the higher order correction due to the perturbed time dependent potential. So, the formalism is done for now, let's focus on our specific problem, a perturbation caused by incident light (or EM wave).
+substituting the first order values of this equation again in the previous equation, we get the second order correction and continuing in this manner we get all the higher order correction. So, the formalism is done for now, let's focus on our specific problem, a perturbation caused by incident light (or EM wave).
 
 For the sake of simplicity, we will assume that the incident wave is sinusoidal which introduces a cosine perturbation ( as, <script type="math/tex">E = -\nabla V</script> ), i.e.
 
@@ -209,7 +209,7 @@ c_b(t) \approx - \frac{V_{ba}}{2\hbar}\left[ \frac{e^{i(\omega_0 - \omega)t} - 1
 </p>
 <p align = "justify">
 
-A remarkable result indeed. What <script type="math/tex"> c_b</script> tells us is how likely the electron to be found in the state <script type="math/tex">\psi_b</script>. So, assuming the wave function to be normalised, the probability of finding the electron in the state<script type="math/tex">\psi_b</script> is simply, 
+A remarkable result indeed. What <script type="math/tex"> c_b</script> tells us is how likely the electron to be found in the state <script type="math/tex">\psi_b</script>. So, assuming the wave function to be normalised, the probability of finding the electron in the state <script type="math/tex">\psi_b</script> is simply, 
 
 </p>
 <p align = "center">
@@ -219,7 +219,7 @@ P = |c_b|^2 \approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2{\left[(\omega_0 - \om
 </p>
 <p align = "justify">
 
-Now, if you remember, we started with the state <script type="math/tex">\psi_a</script> only, and we are getting a positive probability for the electron to be in state <script type="math/tex">\psi_b</script>. In other words, there is a chance of transition from the state <script type="math/tex">\psi_a</script> to <script type="math/tex">\psi_b</script>. That's why <script type="math/tex">P</script> is called transition probability. But did we get our answer? No, we will if we plot the transition probability vs <script type="math/tex"> \omega </script> graph. In the figure below, you can easily see that the transition probability is much larger at the vicinity of the <script type="math/tex"> \omega_0</script>. That explains why the transition is caused by mostly the light of a certain wavelength. Another interesting point to be noted is that, the graph is symmetric, so if you are little brave you would say, that an EM wave having less frequency than <script type="math/tex">\omega_0</script> is also capable of causing the excitation. Really!!
+Now, if you remember, we started with the state <script type="math/tex">\psi_a</script> only, and we are getting a positive probability for the electron to be in state <script type="math/tex">\psi_b</script>. In other words, there is a chance of transition from the state <script type="math/tex">\psi_a</script> to <script type="math/tex">\psi_b</script>. That's why <script type="math/tex">P</script> is called transition probability. But did we get our answer? No, we will if we plot the transition probability vs <script type="math/tex"> \omega </script> graph. In the figure below, you can easily see that the transition probability is much larger at the vicinity of the <script type="math/tex"> \omega_0</script>. That explains why the transition is caused by mostly the light of a certain wavelength. Although the transition probability is very less for higher or lower frequency than <script type="math/tex">\omega_0</script>, it's not zero except few points, so you can still get transition for those wavelength, but the chance is very less. An interesting point to be noted is that, the graph is symmetric, so if you are little brave you would say, that an EM wave having less frequency than <script type="math/tex">\omega_0</script> is also capable of causing the excitation. Really!!
 </p>
 <figure>
 <img src = "Tran_prob.png" alt = "Angular frequency vs. Transition probability graph" style="width:80%;height:80%;" align = "left">
@@ -227,7 +227,7 @@ Now, if you remember, we started with the state <script type="math/tex">\psi_a</
 </figure>
 
 <p align = "justify">
-Another doubt may come to your mind regarding the transition probability, In our assumption there was nothing special about the states, we didn't mention which states is the lower energy state, and which one is higher. So, this analysis is also applicable for the transition from higher energy state to lower energy state, and an emission happens due to presence of radiation. These phenomena are called <em>stimulated emission</em> and it explains why the electron goes from higher energy states to lower energy states. But it again raise an annoying question, if the electron is already in higher stationary state and the whole system is kept in dark, i.e. in the absence of radiation, will the transition still happen? The answer is yes, and it was known as spontaneous emission. But isn't it against the law of quantum mechanics? No, because there is nothing as purely spontaneous emission, without perturbation, the electron would stay in the higher energy state forever. However in <em>quantum electrodynamics</em> the fields are nonzero even in the ground state, just like the ground state energy of the harmonic oscillator is nonzero. So, whatever you do, wherever you go, there will always be radiation to cause the perturbation and will encourage the electron to break its commitment to the excited state. 
+Another doubt may come to your mind regarding the transition probability, In our assumption there was nothing special about the states, we didn't mention which states is the lower energy state, and which one is higher. So, this analysis is also applicable for the transition from higher energy state to lower energy state, and an emission happens due to presence of radiation. These phenomena are called <em>stimulated emission</em> and it explains why the electron goes from higher energy states to lower energy states. But it again raise an annoying question, if the electron is already in higher stationary state and the whole system is kept in dark, i.e. in the absence of radiation, will the transition still happen? The answer is yes, and it was known as spontaneous emission. But isn't it against the law of quantum mechanics? No, because there is nothing as purely spontaneous emission. Without perturbation, the electron would stay in the higher energy state forever. However in <em>quantum electrodynamics</em> the fields are nonzero even in the ground state, just like the ground state energy of the harmonic oscillator is nonzero. So, whatever you do, wherever you go, there will always be radiation to cause the perturbation and will encourage the electron to break its commitment to the excited state. 
 </p>
 <p align = "justify">
 
