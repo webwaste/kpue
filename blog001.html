@@ -142,10 +142,24 @@ One thing to notice is that the above equation is a coupled differential equatio
 
 </p>
 <p align = "center">
-<script type="math/tex;" align = "left"> 
-\frac{dc_a^{(1)}}{dt} = 0,\implies c_a^{(1)}(t) = 1 \\ \\
-\frac{dc_b^{(1)}}{dt} = -\frac{i}{\hbar}H'_{ba}e^{i\omega_0t} \\ \\ \implies  c_b^{(1)}= -\frac{i}{\hbar}\int_0^t H'_{ba}(t')e^{i\omega_0t'}dt'
+<script type="math/tex;"> 
+\frac{dc_a^{(1)}}{dt} = 0,\implies c_a^{(1)}(t) = 1 
 </script>
+
+</p>
+<p align = "center">
+
+<script type="math/tex;"> 
+\frac{dc_b^{(1)}}{dt} = -\frac{i}{\hbar}H'_{ba}e^{i\omega_0t} 
+
+</script>
+
+</p>
+<p align = "center">
+<script type="math/tex;"> 
+ \implies  c_b^{(1)}= -\frac{i}{\hbar}\int_0^t H'_{ba}(t')e^{i\omega_0t'}dt'
+</script>
+<br>
 </p>
 <p align = "justify">
 substituting the first order values of this equation again in the previous equation, we get the second order correction and continuing in this manner we get all the higher order correction. So, the formalism is done for now, let's focus on our specific problem, a perturbation caused by incident light (or EM wave).
@@ -202,11 +216,11 @@ This may seem complicated but, physicists have an excellent tool to simplify stu
 which encourages us to neglect the first term inside the square bracket. Now, the expression becomes,
 
 </p>
-<p align = "center">
+<div align = "center">
 <script type="math/tex;" align = "left">
 c_b(t) \approx - \frac{V_{ba}}{2\hbar}\left[ \frac{e^{i(\omega_0 - \omega)t} - 1}{\omega_0 - \omega} \right] = -i\frac{V_{ba}}{\hbar}\frac{\sin{\left[(\omega_0 - \omega)t/2\right]}}{\omega_0 - \omega}
 </script>
-</p>
+</div>
 <p align = "justify">
 
 A remarkable result indeed. What <script type="math/tex"> c_b</script> tells us is how likely the electron to be found in the state <script type="math/tex">\psi_b</script>. So, assuming the wave function to be normalised, the probability of finding the electron in the state <script type="math/tex">\psi_b</script> is simply, 
@@ -222,7 +236,7 @@ P = |c_b|^2 \approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2{\left[(\omega_0 - \om
 Now, if you remember, we started with the state <script type="math/tex">\psi_a</script> only, and we are getting a positive probability for the electron to be in state <script type="math/tex">\psi_b</script>. In other words, there is a chance of transition from the state <script type="math/tex">\psi_a</script> to <script type="math/tex">\psi_b</script>. That's why <script type="math/tex">P</script> is called transition probability. But did we get our answer? No, we will if we plot the transition probability vs <script type="math/tex"> \omega </script> graph. In the figure below, you can easily see that the transition probability is much larger at the vicinity of the <script type="math/tex"> \omega_0</script>. That explains why the transition is caused by mostly the light of a certain wavelength. Although the transition probability is very less for higher or lower frequency than <script type="math/tex">\omega_0</script>, it's not zero except few points, so you can still get transition for those wavelength, but the chance is very less. An interesting point to be noted is that, the graph is symmetric, so if you are little brave you would say, that an EM wave having less frequency than <script type="math/tex">\omega_0</script> is also capable of causing the excitation. Really!!
 </p>
 <figure>
-<img src = "Tran_prob.png" alt = "Angular frequency vs. Transition probability graph" style="width:80%;height:80%;" align = "left">
+<img src = "Tran_prob.png" alt = "Angular frequency vs. Transition probability graph" style="width:80%;height:auto; maxw-width:100%; " align = "left">
 <figcaption> Fig.1 Angular frequency vs. Transition probability graph </figcaption>
 </figure>
 
