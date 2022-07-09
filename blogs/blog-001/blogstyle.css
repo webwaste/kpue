@@ -1,14 +1,97 @@
-body {margin-right: 10%; margin-left:10%;}
-header{}
-h1   {color: rgb(60,60,60);}
-h3   {color: rgb(60,60,60);}
-hr   {color: rgb(60,60,60);}
-p    {color: rgb(100,100,100);}
-h4   {color: rgb(30,30,30);}
-h5   {color: rgb(0,100,100);}
-q    {color: rgb(60,60,60);}
-div  {}
-img  {display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;}
-div.figure{ display: block; margin: auto; text-align: center;  color: red; font-size: 12px; width: 100%;}
-div.nav{ text-align: right; width: 100%; height: auto; }
-footer{color: blue; float: right; margin-bottom:10%; margin-top: 20%; font-size: 12px;  }
+body{}
+.nav{
+    background-color: #6d8f83; padding: 10px 0px 0px 0px; margin-top:0; top:0; width:100%;
+}
+a.nav:link{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:visited{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:hover{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:active{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+
+.row{
+    display:flex;background-color: #000000;
+}
+.left-column{
+    flex:30%; padding:10px; height:auto;
+}
+.right-column{
+    flex:70%; padding:10px 60px 0px 60px; height:auto;
+}
+h1.header{
+    font-family: 'Georgia', serif; font-weight: normal;
+}
+h2{
+    color: #ececec; font-weight: normal;
+}
+h3{
+    color: #cccccc; font-weight: normal;
+
+}
+h4{
+    color: #cccccc; font-weight: normal;
+
+}
+h5{
+    color: #cccccc; font-weight: normal;
+
+}
+p{
+    color: #acacac; text-align: justify; font-size: 18px;
+}
+img.blog-about{
+    padding: 20px 20px 20px 20px; border-radius: 50%
+}
+q{
+    color: rgb(190,190,190);
+}
+ul{
+    color:white; padding: 10px 0px 10px 30px;font-size: 18px; text-align: left;
+}
+ol{ 
+  padding: 0px 0px 0px 0px;font-size: 18px; text-align: justify;
+}
+li{ 
+  padding: 10px 0px 0px 0px;font-size: 18px; text-align: justify; font-weight: normal
+}
+dl.recent-entries{
+    color: white; padding: 0px 0px 0px 0px
+}
+dd{
+    color:white; padding: 10px 0px 10px 0px;font-size: 18px;
+}
+dt{
+    color: #acacac; padding: 0px 50px 0px 80px; text-align: justify; font-size: 18px;
+}
+
+a.list-link:link{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:visited{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:hover{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:active{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+
+a:link{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a:visited{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a:hover{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a:active{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
