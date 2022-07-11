@@ -16,7 +16,12 @@ a.nav:active{
 }
 
 .row{
-    display:flex;background-color: #000000;
+    display:flex;background-color: #000000; flex-direction: row;
+}
+@media (max-width: 800px){
+    .row{
+	flex-direction: column;
+    }
 }
 .left-column{
     flex:30%; padding:10px; height:auto;
@@ -24,50 +29,53 @@ a.nav:active{
 .right-column{
     flex:70%; padding:10px 60px 0px 60px; height:auto;
 }
+.skill-row{
+    display:flex;background-color: #000000; flex-direction: row;
+}
+@media (max-width: 800px){
+    .row{
+	flex-direction: column;
+    }
+}
+.skill-left-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
+.skill-mid-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
+.skill-right-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
 h1.header{
     font-family: 'Georgia', serif; font-weight: normal;
 }
-h2{
+h2.profile{
     color: #ececec; font-weight: normal;
 }
-h3{
+h3.profile{
     color: #cccccc; font-weight: normal;
 
 }
-h4{
-    color: #cccccc; font-weight: normal;
-
-}
-h5{
-    color: #cccccc; font-weight: normal;
-
-}
-p{
+p.profile{
     color: #acacac; text-align: justify; font-size: 18px;
 }
-img.blog-about{
+img.profile{
     padding: 20px 20px 20px 20px; border-radius: 50%
 }
-q{
-    color: rgb(190,190,190);
-}
 ul{
-    color:white; padding: 10px 0px 10px 30px;font-size: 18px; text-align: left;
-}
-ol{ 
-  padding: 0px 0px 0px 0px;font-size: 18px; text-align: justify;
-}
-li{ 
-  padding: 10px 0px 0px 0px;font-size: 18px; text-align: justify; font-weight: normal
-}
-dl.recent-entries{
     color: white; padding: 0px 0px 0px 0px
 }
+li{
+    color: #acacac; padding: 0px 0px 0px 0px
+}
+dl{
+    color: white; padding: 0px 0px 0px 0px; font-weight: normal;
+}
 dd{
-    color:white; padding: 10px 0px 10px 0px;font-size: 18px;
+    color: #acacac; padding: 0px 0px 0px 0px;font-size: 18px;
 }
 dt{
-    color: #acacac; padding: 0px 50px 0px 80px; text-align: justify; font-size: 18px;
+    color: #02a186; padding: 0px 0px 0px 0px; text-align: justify; font-size: 18px;
 }
 
 a.list-link:link{
@@ -80,18 +88,5 @@ a.list-link:hover{
   padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
 }
 a.list-link:active{
-  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
-}
-
-a:link{
-  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
-}
-a:visited{
-  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
-}
-a:hover{
-  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
-}
-a:active{
   padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
 }
