@@ -109,4 +109,12 @@ dd{
 dt{
     color: #acacac; padding: 0px 0px 0px 0px; font-size: 18px;
 }
-
+div.scroll {
+  background-color: "black";
+  width: 700px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  padding: 20px;
+}
