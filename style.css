@@ -1,6 +1,6 @@
 body{}
 
-/*===========================================================*/
+/*=================Header Style==============================*/
 /*Naviagtion block styles*/
 .nav{
     background-color: #6d8f83; padding: 10px 0px 0px 0px; margin-top:0; top:0; width:100%;
@@ -20,6 +20,29 @@ a.nav:active{
     padding: 0px 10px; text-decoration:none; color:black
 }
 
+/*======Footer Style=========================================*/
+.footer{
+    background-color: #6d8f83; 
+    height: 50px; 
+    padding: 10px 0px 0px 0px;
+    margin-top:0; top:0; width:100%;
+    text-align: center;
+    align-self: center;
+}
+/*===========================================================*/
+/*Navigation links*/
+a.footer:link{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.footer:visited{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.footer:hover{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.footer:active{
+    padding: 0px 10px; text-decoration:none; color:black
+}
 /*===========================================================*/
 /*Links those are in lists*/
 a.list-link:link{
