@@ -1,9 +1,8 @@
 body{}
-1 rem = 5px
 /*=================Header Style==============================*/
 /*Naviagtion block styles*/
 .nav{
-    background-color: #6d8f83; padding: 1rem rem rem rem; margin-top:0; top:0; width:100%;
+    background-color: #6d8f83; padding: 1rem 0rem 0rem 0rem; margin-top:0; top:0; width:100%; height: 7rem;
 }
 /*===========================================================*/
 /*Navigation links*/
@@ -23,14 +22,12 @@ a.nav:active{
 /*======Footer Style=========================================*/
 .footer{
     background-color: #6d8f83; 
-    height: 5rem; 
-    padding: 1rem 0rem 0rem 0rem;
+    height: 1rem; 
+    padding: 0rem 0rem 0rem 0rem;
     margin-top:0; top:0; width:100%;
     text-align: center;
     align-self: center;
 }
-/*===========================================================*/
-/*Navigation links*/
 a.footer:link{
     padding: 0rem 1rem; text-decoration:none; color:black
 }
@@ -96,51 +93,51 @@ a.list-link:active{
 /*styling for headers and paragraphs*/
 
 h1.header{
-    font-family: 'Georgia', serif; font-weight: normal;
+    font-family: 'Georgia', serif; font-weight: normal; font-size: 2.0rem; padding: 0rem 0rem  0rem 0rem;
 }
 h2.profile{
-    color: #ececec; font-weight: normal;
+    color: #ececec; font-weight: normal; font-size: 1.5rem;
 }
 h3.profile{
-    color: #cccccc; font-weight: normal;
+    color: #cccccc; font-weight: normal; font-size: 1.2rem;
 
 }
 h2.blog-about{
-    color: #ececec; font-weight: normal;
+    color: #ececec; font-weight: normal; font-size: 1.5rem;
 }
 h3.blog-about{
-    color: #cccccc; font-weight: normal;
+    color: #cccccc; font-weight: normal; font-size: 1.5rem;
 
 }
 p{
-    color: #acacac; text-align: justify; font-size: 2rem; font-family: "Times New Roman",serif;
+    color: #acacac; text-align: justify; font-size: 1.2rem; font-family: "Times New Roman",serif;
 }
 img.profile{
-    padding: 2rem 2rem 2rem 2rem; border-radius: 50%
+    padding: 1rem 1rem 1rem 1rem; border-radius: 50%
 }
 /*===========================================================*/
 /*styling for lists*/
 ul{
-    color:white; padding: 1rem 0rem 1rem 3rem;font-size: 2rem; text-align: left;
+    color:white; padding: 1rem 0rem 1rem 3rem;font-size: 1rem; text-align: left;
 }
 dl{
     color: white; padding: 0rem 0rem 0rem 0rem
 }
 dd{
-    color:#acacac; padding: 0rem 0rem 0rem 0rem; font-size: 2rem; text-align: justify; 
+    color:#acacac; padding: 0rem 0rem 0rem 0rem; font-size: 1rem; text-align: justify; 
 }
 dt{
-    color: #acacac; padding: 0rem 0rem 0rem 0rem; font-size: 2rem;
+    color: #acacac; padding: 0rem 0rem 0rem 0rem; font-size: 1rem;
 }
 
 div.scroll {
   background-color: "black";
-  width: 70rem;
-  height: 50rem;
+  width: 35rem;
+  height: 30rem;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /*For smartphones*/
@@ -152,6 +149,6 @@ div.scroll {
   overflow-x: hidden;
   overflow-y: auto;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
 }
 }
