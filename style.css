@@ -141,6 +141,7 @@ div.scroll {
 }
 
 /*For smartphones*/
+/*
 @media screen and (max-width: 60rem){
 div.scroll {
   background-color: "black";
@@ -152,3 +153,4 @@ div.scroll {
   padding: 1rem;
 }
 }
+*/
