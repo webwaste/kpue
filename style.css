@@ -1,30 +1,30 @@
 body{}
-
+1 rem = 10px
 /*=================Header Style==============================*/
 /*Naviagtion block styles*/
 .nav{
-    background-color: #6d8f83; padding: 10px 0px 0px 0px; margin-top:0; top:0; width:100%;
+    background-color: #6d8f83; padding: 1rem rem rem rem; margin-top:0; top:0; width:100%;
 }
 /*===========================================================*/
 /*Navigation links*/
 a.nav:link{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.nav:visited{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.nav:hover{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.nav:active{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 
 /*======Footer Style=========================================*/
 .footer{
     background-color: #6d8f83; 
-    height: 50px; 
-    padding: 10px 0px 0px 0px;
+    height: 5rem; 
+    padding: 1rem 0rem 0rem 0rem;
     margin-top:0; top:0; width:100%;
     text-align: center;
     align-self: center;
@@ -32,30 +32,30 @@ a.nav:active{
 /*===========================================================*/
 /*Navigation links*/
 a.footer:link{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.footer:visited{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.footer:hover{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 a.footer:active{
-    padding: 0px 10px; text-decoration:none; color:black
+    padding: 0rem 1rem; text-decoration:none; color:black
 }
 /*===========================================================*/
 /*Links those are in lists*/
 a.list-link:link{
-  padding: 0px 0px 0px 0px; text-decoration:none; color: #02a186;
+  padding: 0rem 0rem 0rem 0rem; text-decoration:none; color: #02a186;
 }
 a.list-link:visited{
-  padding: 0px 0px 0px 0px; text-decoration:none; color: #02a186;
+  padding: 0rem 0rem 0rem 0rem; text-decoration:none; color: #02a186;
 }
 a.list-link:hover{
-  padding: 0px 0px 0px 0px; text-decoration:none; color: #02a186;
+  padding: 0rem 0rem 0rem 0rem; text-decoration:none; color: #02a186;
 }
 a.list-link:active{
-  padding: 0px 0px 0px 0px; text-decoration:none; color: #02a186;
+  padding: 0rem 0rem 0rem 0rem; text-decoration:none; color: #02a186;
 }
 /*===========================================================*/
 /*styling for columns*/
@@ -63,34 +63,34 @@ a.list-link:active{
 .row{
     display:flex;background-color: #000000; flex-direction: row;
 }
-@media (max-width: 800px){
+@media (max-width: 80rem){
     .row{
 	flex-direction: column;
     }
 }
 .left-column{
-    flex:30%; padding:10px; height:auto;
+    flex:30%; padding:1rem; height:auto;
 }
 .right-column{
-    flex:70%; padding:10px 60px 0px 60px; height:auto;
+    flex:70%; padding:1rem 6rem 0rem 6rem; height:auto;
 }
 
 .skill-row{
     display:flex;background-color: #000000; flex-direction: row;
 }
-@media (max-width: 800px){
+@media (max-width: 80rem){
     .sill-row{
 	flex-direction: column;
     }
 }
 .skill-left-col{
-    flex:30%; padding:0px 0px 0px 0px; height:auto;
+    flex:30%; padding:0rem 0rem 0rem 0rem; height:auto;
 }
 .skill-mid-col{
-    flex:30%; padding:0px 0px 0px 0px; height:auto;
+    flex:30%; padding:0rem 0rem 0rem 0rem; height:auto;
 }
 .skill-right-col{
-    flex:30%; padding:0px 0px 0px 0px; height:auto;
+    flex:30%; padding:0rem 0rem 0rem 0rem; height:auto;
 }
 /*===========================================================*/
 /*styling for headers and paragraphs*/
@@ -113,45 +113,45 @@ h3.blog-about{
 
 }
 p{
-    color: #acacac; text-align: justify; font-size: 18px; font-family: "Times New Roman",serif;
+    color: #acacac; text-align: justify; font-size: 2rem; font-family: "Times New Roman",serif;
 }
 img.profile{
-    padding: 20px 20px 20px 20px; border-radius: 50%
+    padding: 2rem 2rem 2rem 2rem; border-radius: 50%
 }
 /*===========================================================*/
 /*styling for lists*/
 ul{
-    color:white; padding: 10px 0px 10px 30px;font-size: 18px; text-align: left;
+    color:white; padding: 1rem 0rem 1rem 3rem;font-size: 2rem; text-align: left;
 }
 dl{
-    color: white; padding: 0px 0px 0px 0px
+    color: white; padding: 0rem 0rem 0rem 0rem
 }
 dd{
-    color:#acacac; padding: 0px 0px 0px 0px; font-size: 18px; text-align: justify; 
+    color:#acacac; padding: 0rem 0rem 0rem 0rem; font-size: 2rem; text-align: justify; 
 }
 dt{
-    color: #acacac; padding: 0px 0px 0px 0px; font-size: 18px;
+    color: #acacac; padding: 0rem 0rem 0rem 0rem; font-size: 2rem;
 }
 
 div.scroll {
   background-color: "black";
-  width: 700px;
-  height: 500px;
+  width: 70rem;
+  height: 50rem;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: left;
-  padding: 20px;
+  padding: 2rem;
 }
 
 /*For smartphones*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 60rem){
 div.scroll {
   background-color: "black";
-  width: 300px;
-  height: 400px;
+  width: 30rem;
+  height: 40rem;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: left;
-  padding: 20px;
+  padding: 2rem;
 }
 }
