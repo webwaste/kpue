@@ -2,7 +2,7 @@ body{}
 /*=================Header Style==============================*/
 /*Naviagtion block styles*/
 .nav{
-    background-color: #6d8f83; padding: 1rem 0rem 0rem 0rem; margin-top:0; top:0; width:100%; height: 7rem;
+    background-color: #6d8f83; padding: 1rem 0rem 0rem 0rem; margin-top:0; top:0; width:100%; height: auto;
 }
 /*===========================================================*/
 /*Navigation links*/
@@ -22,7 +22,7 @@ a.nav:active{
 /*======Footer Style=========================================*/
 .footer{
     background-color: #6d8f83; 
-    height: 1rem; 
+    height: auto; 
     padding: 0rem 0rem 0rem 0rem;
     margin-top:0; top:0; width:100%;
     text-align: center;
@@ -132,8 +132,8 @@ dt{
 
 div.scroll {
   background-color: "black";
-  width: 35rem;
-  height: 30rem;
+  width: 45rem;
+  height: 35rem;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: left;
