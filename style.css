@@ -142,3 +142,16 @@ div.scroll {
   text-align: left;
   padding: 20px;
 }
+
+/*For smartphones*/
+@media screen and (max-width: 600px){
+div.scroll {
+  background-color: "black";
+  width: 300px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  padding: 20px;
+}
+}
